@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AndroidExampleApp</string>
+    <string name="ok">Ok</string>
+    <string name="set_location">Set Location</string>
+    <string name="set_manual_location">Set Manual Location</string>
+    <string name="location">Location</string>
+    <string name="current_time">Current Time</string>
+    <string name="current_day">Current Day</string>
 </resources>
