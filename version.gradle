@@ -1,0 +1,35 @@
+import java.util.regex.Pattern
+import java.util.regex.Matcher
+
+// This version script supports tags in the form of MMMM-NNN-PPP-COMITS-HASH
+// This version script does NOT support tags using full stops (.)
+// Note that there does need to be a tag for this to work, no defaults are set
+def getTag = { ->
+	return "git describe --tags --dirty=_dirty --long".execute().text.trim()
+}
+
+def getVersionName = { ->
+	def tag = getTag()
+	def pattern = Pattern.compile(/^([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-g([a-f0-9]+)(.*)$/)
+	def match = tag =~ pattern
+	return "${match[0][1]}-${match[0][2]}-${match[0][3]}-${match[0][4]}-${match[0][5]}"
+}
+
+def getVersionCode = { ->
+	def tag = getTag()
+	
+	def tagSplit = tag.split("-")
+	def major = Integer.parseInt(tagSplit[0]) * 1000000
+	def minor = Integer.parseInt(tagSplit[1]) * 1000
+	def patch = Integer.parseInt(tagSplit[2])
+	def version = major + minor + patch
+	
+	def versionAsString = String.format("%010d", version)
+	return versionAsString
+}
+
+ext {
+	versionScript = [:]
+	versionScript['name'] = "${getVersionName()}"
+	versionScript['code'] = getVersionCode().toInteger()
+}
