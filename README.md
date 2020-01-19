@@ -12,3 +12,10 @@ The examples to be completed are:
 - Roboletric
 - Mockito
 - Gradle Versioning
+- Motion Layouts
+- Flutter
+- Constraint Layouts
+- Dagger
+- LiveData
+- Singleton
+- Google Play Transactions
