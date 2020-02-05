@@ -1,8 +1,10 @@
 # AndroidExampleApp
 This repository contains an Android app which includes many examples of different Android features over multiple branches.
 
-The examples completed are:
+The examples completed are (alphabetical):
 - Basic MVP
+- Constraint Layout
+- Gradle Versioning
 
 The examples to be completed are:
 - The Resposity pattern
@@ -11,11 +13,10 @@ The examples to be completed are:
 - Retrofit
 - Roboletric
 - Mockito
-- Gradle Versioning
 - Motion Layouts
 - Flutter
-- Constraint Layouts
 - Dagger
 - LiveData
 - Singleton
 - Google Play Transactions
+- Interactive Adverts
