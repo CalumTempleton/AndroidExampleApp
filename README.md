@@ -2,11 +2,14 @@
 This repository contains an Android app which includes many examples of different Android features over multiple branches.
 
 The examples completed are (alphabetical):
-- Basic MVP
-- Constraint Layout
-- Gradle Versioning
+- Basic MVP (Basic-MVP-Example)
+- Constraint Layout (ConstaintLayout)
+- Higher Order Functions (HigherOrderFunctions)
+- Gradle Versioning (Gradle-Versioning)
+- Observer Pattern (ObserverPattern)
 - Optimization (WIP)
-- Room with MVVM (WIP)
+- Room with MVVM (WIP) (RoomDb)
+- Null Safety (NullSafety)
 
 The examples to be completed are:
 - The Resposity pattern
