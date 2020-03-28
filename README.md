@@ -5,6 +5,8 @@ The examples completed are (alphabetical):
 - Basic MVP
 - Constraint Layout
 - Gradle Versioning
+- Optimization (WIP)
+- Room with MVVM (WIP)
 
 The examples to be completed are:
 - The Resposity pattern
@@ -20,3 +22,5 @@ The examples to be completed are:
 - Singleton
 - Google Play Transactions
 - Interactive Adverts
+- Kotlin Null Safety
+- Databinding and Observables
