@@ -97,4 +97,4 @@ class UserViewModel(application: Application): AndroidViewModel(application) {
     ...
 }
 
-Note that there is a difference between AndroidViewModel and ViewModel. Use AndroidViewModel when you have the application context which has a lifecyclle that lives as long as the application does.
+Note that there is a difference between AndroidViewModel and ViewModel. Use AndroidViewModel when you have the application context which has a lifecycle that lives as long as the application does.
