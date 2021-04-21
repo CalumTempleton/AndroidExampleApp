@@ -2,14 +2,13 @@
 This repository contains an Android app which includes many examples of different Android features over multiple branches.
 
 The examples completed are (alphabetical):
-- Basic MVP (Basic-MVP-Example)
+- Basic MVP (Basic-MVP-Example) - too basic as no model
 - Constraint Layout (ConstaintLayout)
 - Gradle Versioning (Gradle-Versioning)
-- Optimization (WIP)
-- Room with MVVM (WIP) (RoomDb)
+- Optimization (Not Started)
+- Room with MVVM (Not Started) (RoomDb)
 
 The examples to be completed are:
-- The Resposity pattern
 - Using the NDK 
 - OpenGL ES
 - Retrofit
